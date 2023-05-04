@@ -2,7 +2,7 @@ html,
 body {
     margin: 0;
     font-size: 100%;
-    background: rgb(36, 35, 35);
+    background: rgb(255, 255, 255);
     font-family: 'Inconsolata', monospace;
 }
 
@@ -105,7 +105,7 @@ span.sub {
 h1.logo-w3layouts a.navbar-brand {
     font-size: 1.5em;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.26);
-    color: #dfdfdf;
+    color: #518ec7;
     margin: 0;
     font-weight: 700;
     font-family: 'Inconsolata', sans-serif;
@@ -154,7 +154,7 @@ h1.logo-w3layouts a.navbar-brand {
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #a532c2;
+    color: #518ec7;
     border-radius: 0px;
 }
 
@@ -267,7 +267,7 @@ ul.cart-inner-info li {
     letter-spacing: 3px;
 }
 .top-info i {
-    color: #a532c2;
+    color: #518ec7;
 }
 /*-- //header --*/
 
@@ -426,14 +426,14 @@ a.animated-button:visited:hover:after {
 }
 
 a.animated-button.gibson-three {
-	border: 2px solid #a532c2;
+	border: 2px solid #518ec7;
 	color: #fff;
 }
 
 a.animated-button.gibson-three:after {
 	opacity: 0;
-    background-image: -webkit-linear-gradient( transparent 50%, #a532c282 50%);
-	background-image:-moz-linear-gradient( transparent 50%, #a532c282 50%);
+    background-image: -webkit-linear-gradient( transparent 50%, #518ec782 50%);
+	background-image:-moz-linear-gradient( transparent 50%, #518ec782 50%);
 	background-size: 10px 10px;
 	-moz-transform: translateX(-50%) translateY(-50%) rotate(90deg);
 	-ms-transform: translateX(-50%) translateY(-50%) rotate(90deg);
@@ -444,14 +444,14 @@ a.animated-button.gibson-three:after {
 a.animated-button.gibson-three:hover:after {
 	height: 600% !important;
 	opacity: 1;
-	color: #a532c2;
+	color: #518ec7;
 }
 
 .container-tes {
-    background: -webkit-linear-gradient(rgba(59, 42, 250, 0.377), rgba(23, 22, 23, 0)), url(../images/Testimonio.jpg) no-repeat;
-    background: -moz-linear-gradient(rgba(59, 42, 250, 0.377), rgba(23, 22, 23, 0)), url(../images/Testimonio.jpg) no-repeat;
-    background: -ms-linear-gradient(rgb(60, 42, 250, 0.377), rgba(23, 22, 23, 0)), url(../images/Testimonio.jpg) no-repeat;
-    background: linear-gradient(rgb(60, 42, 250, 0.377), rgba(23, 22, 23, 0)), url(../images/Testimonio.jpg) no-repeat;
+    background: -webkit-linear-gradient(rgba(59, 42, 250, 0.377), rgba(23, 22, 23, 0.3)), url(../images/Testimonio.jpg) no-repeat;
+    background: -moz-linear-gradient(rgba(59, 42, 250, 0.377), rgba(23, 22, 23, 0.3)), url(../images/Testimonio.jpg) no-repeat;
+    background: -ms-linear-gradient(rgb(60, 42, 250, 0.377), rgba(23, 22, 23, 0.3)), url(../images/Testimonio.jpg) no-repeat;
+    background: linear-gradient(rgb(60, 42, 250, 0.377), rgba(23, 22, 23, 0.3)), url(../images/Testimonio.jpg) no-repeat;
     background-size: cover;
     background-color: rgb(60, 42, 250);
     width: 100%;
@@ -463,13 +463,14 @@ a.animated-button.gibson-three:hover:after {
 .testimonials-text h4{
     font-size: 4em;
     font-weight: 600;
-    color: #c9c9c9;
+    color: #518ec7;
+    text-shadow: #111;
     margin: 0;
     padding-top: 100px;
 }
 
 .testimonials-text p {
-    color: #c9c9c9;
+    color: #518ec7;
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 8px;
@@ -500,7 +501,7 @@ a.animated-button.gibson-three:hover:after {
 }
 
 .beneficios-titulo h4{
-    color: #a532c2;
+    color: #518ec7;
 }
 
 /* Show it is fixed to the top */
@@ -521,7 +522,7 @@ a.animated-button.gibson-three:hover:after {
 
 .login button.btn.btn-primary.submit {
     box-shadow: 2px 2px #54575a;
-    background: #a532c2;
+    background: #518ec7;
     padding: 0.5em 2em;
     letter-spacing: 1px;
     border: none;
@@ -661,7 +662,7 @@ figure.effect-lexi h3 {
     color: rgb(230, 230, 230);
 }
 figure.effect-lexi h3 span {
-    color: #a532c2;
+    color: #518ec7;
 }
 
 figure.effect-lexi p {
@@ -700,7 +701,7 @@ figure.effect-lexi:hover p {
 }
 .mail-grid-text-info h3 {
     font-size: 0.9em;
-    color: #a532c2;
+    color: #518ec7;
     margin: 0em 0 0.5em;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -790,7 +791,7 @@ button.close {
     outline: none;
 }
 .modal-body h6 {
-    color: #a532c2;
+    color: #518ec7;
     font-size: 1.1em;
     letter-spacing: 1px;
 }
@@ -805,7 +806,7 @@ button.close {
     font-size: 1.2em;
 }
 .login.newsletter a:hover {
-    color: #a532c2;
+    color: #518ec7;
 }
 ul.agile_top_section li {
     display: inline-block;
@@ -1052,6 +1053,7 @@ ul.social-icons li a i.fab.fa-google-plus-g:hover {
 	background-color: #f5f7f7;
     padding: 2% 4%;
 }
+.
 /*--// team --*/
 
 /*-- /customers--*/
@@ -1064,7 +1066,7 @@ ul.social-icons li a i.fab.fa-google-plus-g:hover {
 .customer-info h6 {
     font-size: 1em;
     margin: 1em 0;
-    color: #a532c2;
+    color: #518ec7;
 }
 .customer-info ul.social-icons li a i {
     color: #202223;
@@ -1399,7 +1401,7 @@ ul.short {
 ul.short li {
     display: inline-block;
     text-transform: uppercase;
-    color: #fff;
+    color: #6f6f6f;
     font-size: 0.9em;
     font-weight: 600;
     letter-spacing: 2px;
@@ -1410,7 +1412,7 @@ ul.short li {
 }
 
 ul.short li a {
-    color: #a532c2;
+    color: #518ec7;
 }
 
 /*-- /error --*/
@@ -1433,7 +1435,7 @@ a.b-home {
 }
 
 a.b-home:hover {
-    background: #a532c2;
+    background: #518ec7;
     letter-spacing: 1px;
 }
 
@@ -1479,7 +1481,7 @@ a.b-home:hover {
     cursor: pointer;
 }
 .error_page button.btn1:hover {
-    background: #a532c2;
+    background: #518ec7;
 }
 .error_page form {
     margin: 0 auto;
@@ -1513,7 +1515,7 @@ h3.tittle-w3layouts.two{
 .testimonials_grid label {
     font-size: 1em;
     letter-spacing: 1px;
-    color: #a532c2;
+    color: #518ec7;
 }
 .testimonials_grid h3 span {
     font-weight: 100;
@@ -1569,7 +1571,7 @@ a.carousel-control-next.test, a.carousel-control-prev.test {
     color: #333!important;
 }
 .footer-top-w3layouts-grid-sec:hover .mail-grid-icon i {
-    color: #a532c2;
+    color: #518ec7;
 }
 /*--footer--*/
 
@@ -1602,7 +1604,7 @@ footer {
 	font-weight: 300;
 	font-size: 1.2em;
 	line-height: 1.9;
-	color: #a532c2;
+	color: #518ec7;
 }
 
 .copyright-w3layouts {
@@ -1646,7 +1648,7 @@ footer {
 }
 
 .footer-text button.btn1 {
-	color: #a532c2;
+	color: #518ec7;
 	border: none;
 	padding: 10px 0;
 	outline: none;
@@ -1730,13 +1732,13 @@ ul.links li a:hover {
     font-size: 15px;
 }
 .footer-social li a:hover {
-    color: #a532c2;
+    color: #518ec7;
 }
 
 /*--//social-icons--*/
 
 .copyright-w3layouts a {
-    color: #a532c2;
+    color: #518ec7;
 }
 
 /*--//footer--*/

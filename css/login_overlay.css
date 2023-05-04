@@ -57,7 +57,7 @@
 	display: none;
     position: fixed;
     top: 0;
-    background: #212529;
+    background: #fff;
     overflow: auto;
 	z-index: 9999;
 	padding: 3em 3em;
